@@ -18,6 +18,15 @@ async function getEmployeeById(id) {
   }
 }
 
+async function getEmployeeByDepartment(department) {
+  try {
+    const employee = await Employee.find({"department": department});
+    return employee;
+  } catch (err) {
+    throw new Error(err.message);
+  }
+}
+
 async function createEmployee(employeeData) {
   const { error } = Employee.validate(employeeData);
   if (error) {
@@ -64,6 +73,7 @@ async function deleteEmployee(id) {
 module.exports = {
   getAllEmployees,
   getEmployeeById,
+  getEmployeeByDepartment,
   createEmployee,
   updateEmployee,
   deleteEmployee,
