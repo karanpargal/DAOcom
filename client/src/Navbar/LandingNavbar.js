@@ -11,7 +11,7 @@ const LandingNavbar = () => {
         </div>
         <div class="relative inline-block ml-96 text-left mt-4 mr-8 flex flex-col">
               <div className="flex w-full text-black justify-around gap-x-1.5 rounded-lg px-10 py-2 text-base font-semibold ring-2 ring-inset ring-fuchsia-600">
-                <a href='href="/ListDetails"'>Get started</a>
+                <a href='/ListDetails'>Get started</a>
               </div>
             </div>
         </nav>
