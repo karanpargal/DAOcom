@@ -7,8 +7,10 @@ import { useState, useEffect } from "react";
 
 const PaysalEarnLanding = () => {
   const [bounty, setBounty] = useState([]);
+  const [grants, setGrants] = useState([]);
 
   const fetchBounty = async () => {
+    setBounty([]);
     const response = await fetch("https://daocom.onrender.com/bounties", {
       method: "GET",
     });
@@ -16,8 +18,18 @@ const PaysalEarnLanding = () => {
     setBounty(bounty);
   };
 
+  const fetchGrant = async () => {
+    setGrants([]);
+    const response = await fetch("https://daocom.onrender.com/grants", {
+      method: "GET",
+    });
+    const grants = await response.json();
+    setGrants(grants);
+  };
+
   useEffect(() => {
     fetchBounty();
+    fetchGrant();
   }, []);
 
   return (
@@ -31,7 +43,7 @@ const PaysalEarnLanding = () => {
         <div className="flex flex-col ml-72 mt-10  ">
           <BountyDetails bounty={bounty} />
           <div className="flex flex-col mt-10">
-            <GrantsDetails />
+            <GrantsDetails grants={grants}/>
           </div>
         </div>
       </div>
