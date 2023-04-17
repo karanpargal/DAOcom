@@ -13,9 +13,9 @@ import JobCards from "./Landing/JobCards.js";
 import JobDetails from "./Landing/JobDetails.js";
 import PaysalEarnOrg from "./Landing/PaysalEarnOrg.js";
 import AddBounty from "./Forms/AddBounty.js";
-import AddJob from "./Forms/AddJobs.js";
-import AddGrant from "./Forms/AddGrants.js";
-import Dashboard from "./Dashboard/Dashboard.js";
+import AddJobs from "./Forms/AddJobs.js";
+import AddGrants from "./Forms/AddGrants.js";
+
 
 function App() {
   return (
@@ -34,10 +34,9 @@ function App() {
         <Route path="/JobDetails" element={<JobDetails />} />
         <Route path="/JobCards" element={<JobCards />} />
         <Route path="/PaysalEarnOrg" element={<PaysalEarnOrg />} />
-        <Route path="/AddJob" element={<AddJob />} />
+        <Route path="/AddJobs" element={<AddJobs />} />
         <Route path="/AddBounty" element={<AddBounty />} />
-        <Route path="/AddGrant" element={<AddGrant />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/AddGrants" element={<AddGrants />} />
       </Routes>
     </div>
   );

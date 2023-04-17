@@ -4,7 +4,7 @@ const GrantsCards = (props) => {
   return (
     <div>
       <div className="">
-        <div className=" shadow-xl  bg-slate-50 rounded-lg h-60  flex flex-col border-black border w-72 text-black">
+        <div className=" shadow-xl  bg-slate-50 rounded-lg h-56  flex flex-col border-black border w-72 text-black">
           <div className="  text-center">
             <h1 className=" mt-4 font-bold font-ubuntu ml-1 text-black text-2xl text-center underline underline-offset-4">
               {props.GrantsCards.title}
