@@ -18,8 +18,8 @@ async function getGrantById(id) {
   }
 }
 
-async function createGrant(bountyData) {
-  const { error } = Grant.validate(bountyData);
+async function createGrant(grantData) {
+  const { error } = Grant.validate(grantData);
   if (error) {
     throw new Error(error.message);
   }
