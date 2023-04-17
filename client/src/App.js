@@ -7,6 +7,13 @@ import LandingNavbar from"./Navbar/LandingNavbar.js"
 import Landing from "./Landing/Landing.js"
 import Sidebar from "./Sidebar/Sidebar.js"
 import PaysalEarnLanding from "./Landing/PaysalEarnLanding.js"
+import BountyCards from "./Landing/BountyCards.js"
+import BountyDetails from "./Landing/BountyDetails.js"
+import GrantsDetails from "./GrantCards/GrantsDetails.js"
+import GrantsCards from "./GrantCards/GrantsCards.js"
+import JobCards from "./Landing/JobCards.js"
+import JobDetails from "./Landing/JobDetails.js"
+
 
 function App() {
   return (
@@ -19,6 +26,13 @@ function App() {
         <Route path="/Landing" element={ <Landing/> } />
         <Route path="/Sidebar" element={ <Sidebar/> } />
         <Route path="/PaysalEarnLanding" element={ <PaysalEarnLanding/> } />
+        <Route path="/BountyCards" element={ <BountyCards/> } />
+        <Route path="/BountyDetails" element={ <BountyDetails/> } />
+        <Route path="/GrantsDetails" element={ <GrantsDetails/> } />
+        <Route path="/GrantsCards" element={ <GrantsCards/> } />
+        <Route path="/JobDetails" element={ <JobDetails/> } />
+        <Route path="/JobCards" element={ <JobCards/> } />
+
         
       </Routes>
     </div>

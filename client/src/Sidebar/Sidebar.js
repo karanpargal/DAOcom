@@ -10,7 +10,7 @@ const Sidebar = () => {
       >
         <div class="h-full px-3 pb-4 overflow-y-auto bg-neutral-50 flex flex-col divide-y ">
           <ul class="space-y-2 font-medium flex flex-col ">
-            <h1 className="text-left mt-4">Top Bounties</h1>
+            <h1 className="text-left mt-4 text-gray-600">Top Bounties</h1>
             <li>
               <a href="#" class="flex items-center p-2 text-black rounded-lg ">
                 <svg
@@ -43,7 +43,7 @@ const Sidebar = () => {
             </li>
           </ul>
           <ul class="space-y-2 font-medium mt-4 flex flex-col">
-            <h1 className="text-left">Browse</h1>
+            <h1 className="text-left text-gray-600">Browse</h1>
             <li>
               <a href="#" class="flex items-center p-2 text-black rounded-lg ">
                 <svg
