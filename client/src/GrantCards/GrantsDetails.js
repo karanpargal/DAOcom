@@ -7,7 +7,6 @@ const GrantsDetails = () => {
     { Heading: "hi",  Description: "hehe" , Prize:"20K", Time:"10 Days"},
     { Heading: "hi",  Description: "hehe" , Prize:"20K", Time:"10 Days" },
   ];
-  console.log(GrantsDetailsData);
   return (
     <div className="mt-10 font-display" id="BountyDetails">
       <p className=" text-2xl text-black font-bold  ">Grant Details </p>

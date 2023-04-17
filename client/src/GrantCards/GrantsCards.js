@@ -1,7 +1,6 @@
 import React from 'react'
 
 const GrantsCards = (props) => {
-    console.log(props);
     return <div>
     <div className='bg-neutral-50'>
        <div className=" shadow-xl  rounded-lg h-60  flex flex-col border-black border w-72 text-black">
