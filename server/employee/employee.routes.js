@@ -18,9 +18,9 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.get("/:id", (req, res) => {
+router.get("/:id", async (req, res) => {
   try {
-    const employee = getEmployeeById(req.params.id);
+    const employee = await getEmployeeById(req.params.id);
     res.json(employee);
   } catch (error) {
     res.status(500).json({ message: err.message });

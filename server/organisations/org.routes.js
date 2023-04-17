@@ -18,9 +18,9 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.get("/:id", (req, res) => {
+router.get("/:id", async (req, res) => {
   try {
-    const org = getOrgById(req.params.id);
+    const org = await getOrgById(req.params.id);
     res.json(org);
   } catch (error) {
     res.status(500).json({ message: err.message });
