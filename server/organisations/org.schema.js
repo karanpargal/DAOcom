@@ -1,20 +1,16 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const grantSchema = new Schema({
-  title: {
+const orgSchema = new Schema({
+  name: {
     type: String,
     required: true,
   },
-  description: {
+  industry: {
     type: String,
     required: true,
   },
-  deadline: {
-    type: String,
-    required: true,
-  },
-  amount: {
+  email: {
     type: String,
     required: true,
   },
@@ -24,4 +20,4 @@ const grantSchema = new Schema({
   },
 });
 
-module.exports = mongoose.model("Grant", grantSchema);
+module.exports = mongoose.model("Organisation", orgSchema);
