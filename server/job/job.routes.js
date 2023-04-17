@@ -18,11 +18,11 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.get("/:id", (req, res) => {
+router.get("/id",async (req, res) => {
   try {
-    const job = getJobsById(req.params.id);
+    const job = await getJobById(req.query.id);
     res.json(job);
-  } catch (error) {
+  } catch (err) {
     res.status(500).json({ message: err.message });
   }
 });
