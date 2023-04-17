@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from "react";
 import Web3Modal from "web3modal";
 import { providers } from "ethers";
 
-const Navbar = () => {
+const  Navbar = () => {
   const [walletConnected, setWalletConnected] = useState(false);
   const web3ModalRef = useRef();
 
@@ -46,7 +46,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className=" fixed bg-neutral-50 h-16 flex flex-row border-b-2">
+      <nav className=" fixed bg-neutral-50 w-[100%] h-16 flex flex-row border-b-2">
         <div href="" class=" ">
           <h1 class="mt-4 ml-1 text-xl text-black font-semibold  ">
             Paysal-earn

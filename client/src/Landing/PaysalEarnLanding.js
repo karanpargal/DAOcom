@@ -13,7 +13,7 @@ const PaysalEarnLanding = () => {
           <Sidebar />
         </div>
 
-        <div className="flex flex-col ml-72 mt-10 bg-gradient-to-r from-violet-200 to-pink-200s ">
+        <div className="flex flex-col ml-72 mt-10  ">
           <BountyDetails />
           <div className="flex flex-col mt-10">
             <GrantsDetails />

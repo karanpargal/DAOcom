@@ -19,13 +19,12 @@ import AddGrant from "./Forms/AddGrants.js";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gradient-to-l from-violet-200 to-pink-200s">
       <Routes>
-        <Route path="/" element={<Navbar />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/ListCards" element={<ListCards />} />
         <Route path="/ListDetails" element={<ListDetails />} />
         <Route path="/LandingNavbar" element={<LandingNavbar />} />
-        <Route path="/Landing" element={<Landing />} />
         <Route path="/Sidebar" element={<Sidebar />} />
         <Route path="/PaysalEarnLanding" element={<PaysalEarnLanding />} />
         <Route path="/BountyCards" element={<BountyCards />} />
