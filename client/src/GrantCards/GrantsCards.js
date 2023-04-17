@@ -4,10 +4,10 @@ const GrantsCards = (props) => {
     console.log(props);
     return <div>
     <div className='bg-neutral-50'>
-       <div className=" shadow-xl  rounded-lg h-80  flex flex-col border-black border w-80 text-black">
+       <div className=" shadow-xl  rounded-lg h-60  flex flex-col border-black border w-72 text-black">
         
        <div>
-             <img className='h-24 w-80'>
+             <img className='h-16 w-72'>
               
              </img>
            </div>
@@ -15,16 +15,20 @@ const GrantsCards = (props) => {
            <h1 className=" pt-10 font-bold font-ubuntu ml-1 text-black text-2xl text-center underline underline-offset-4" >
              {props.GrantsCards.Heading}
            </h1>
-           <div className="pt-7 text-center">
-             <h1 className="font-semibold ml-1 text-black text-lg text-center">
+           <div className="pt-4 text-center">
+             <h1 className="font-semibold ml-1 text-black text-lg text-center border-b-2">
              {props.GrantsCards.Description}
              </h1>
            </div>
-           <div className='items-center'>
-             <button className="flex  w-60 mt-10 ml-10 gap-x-1 rounded-lg px-8  py-2 text-base font-semibold text-black bg-blue-500">
-             {props.GrantsCards.Button}
-             </button>
-             
+           <div className='items-center flex flex-row divide-x ml-24 mt-6 '>
+             <div className='font-semibold ml-1 text-black text-base text-center '>
+             {props.GrantsCards.Prize}
+
+             </div>
+             <div className='font-semibold ml-1 text-black text-base text-center'>
+              
+              {props.GrantsCards.Time}
+             </div>
            </div>
            
          </div>

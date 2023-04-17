@@ -46,7 +46,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-neutral-50 h-16 flex flex-row border-b-2">
+      <nav className=" fixed bg-neutral-50 h-16 flex flex-row border-b-2">
         <div href="" class=" ">
           <h1 class="mt-4 ml-1 text-xl text-black font-semibold  ">
             Paysal-earn

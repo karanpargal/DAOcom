@@ -6,19 +6,22 @@ import GrantsDetails from "../GrantCards/GrantsDetails";
 
 const PaysalEarnLanding = () => {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <div className="flex flex-row">
         <div className="flex flex-col">
           <Sidebar />
         </div>
 
-        <div className="flex flex-col ml-80 mt-10">
+        <div className="flex flex-col ml-72 mt-10 bg-gradient-to-r from-violet-200 to-pink-200s ">
           <BountyDetails />
-          <div className="flex flex-row mt-10">
+          <div className="flex flex-col mt-10">
             <GrantsDetails />
           </div>
+       
         </div>
+
+        
       </div>
     </div>
   );
