@@ -1,10 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./Navbar/Navbar.js";
 import ListCards from "./ListCards/ListCards.js";
 import ListDetails from "./ListCards/ListDetails.js";
 import LandingNavbar from "./Navbar/LandingNavbar.js";
 import Landing from "./Landing/Landing.js";
-import Sidebar from "./Sidebar/Sidebar.js";
+import Sidebar from "./Sidebar/Sidebar.js"; 
 import PaysalEarnLanding from "./Landing/PaysalEarnLanding.js";
 import BountyCards from "./Landing/BountyCards.js";
 import BountyDetails from "./Landing/BountyDetails.js";
@@ -14,9 +13,9 @@ import JobCards from "./Landing/JobCards.js";
 import JobDetails from "./Landing/JobDetails.js";
 import PaysalEarnOrg from "./Landing/PaysalEarnOrg.js";
 import AddBounty from "./Forms/AddBounty.js";
-import AddJobs from "./Forms/AddJobs.js";
-import AddGrants from "./Forms/AddGrants.js";
-
+import AddJob from "./Forms/AddJobs.js";
+import AddGrant from "./Forms/AddGrants.js";
+import Dashboard from "./Dashboard/Dashboard.js";
 
 function App() {
   return (
@@ -35,9 +34,10 @@ function App() {
         <Route path="/JobDetails" element={<JobDetails />} />
         <Route path="/JobCards" element={<JobCards />} />
         <Route path="/PaysalEarnOrg" element={<PaysalEarnOrg />} />
-        <Route path="/AddJobs" element={<AddJobs />} />
+        <Route path="/AddJob" element={<AddJob />} />
         <Route path="/AddBounty" element={<AddBounty />} />
-        <Route path="/AddGrants" element={<AddGrants />} />
+        <Route path="/AddGrant" element={<AddGrant />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </div>
   );
