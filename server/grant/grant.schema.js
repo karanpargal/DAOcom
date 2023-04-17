@@ -18,6 +18,10 @@ const grantSchema = new Schema({
     type: String,
     required: true,
   },
+  walletAddress: {
+    type: String,
+    required: true,
+  },
 });
 
 module.exports = mongoose.model("Grant", grantSchema);
