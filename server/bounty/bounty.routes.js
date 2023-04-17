@@ -18,9 +18,9 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.get("/:id", (req, res) => {
+router.get("/:id", async (req, res) => {
   try {
-    const bounty = getBountiesById(req.params.id);
+    const bounty = await getBountiesById(req.params.id);
     res.json(bounty);
   } catch (error) {
     res.status(500).json({ message: err.message });
