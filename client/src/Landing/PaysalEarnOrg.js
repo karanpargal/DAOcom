@@ -172,7 +172,7 @@ const PaysalEarnOrg = () => {
                   </svg>
                   <a
                     className=" pl-4 font-bold font-ubuntu ml-1 text-black text-2xl text-center pb-8"
-                    href="/AddJobs"
+                    href="/AddJob"
                   >
                     Add Jobs
                   </a>
@@ -196,7 +196,7 @@ const PaysalEarnOrg = () => {
                   </svg>
                   <a
                     className=" pl-4 font-bold font-ubuntu ml-1 text-black text-2xl text-center pb-8"
-                    href="/AddGrants"
+                    href="/AddGrant"
                   >
                     Add Grants
                   </a>
