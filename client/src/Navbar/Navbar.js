@@ -80,7 +80,7 @@ const Navbar = () => {
         </div>
         <div class="relative inline-block text-left mt-4 flex flex-col ml-72">
           <div className="flex w-full text-black  justify-around gap-x-1.5 rounded-lg px-10 py-2 text-base font-semibold ring-2 ring-inset ring-fuchsia-600">
-            <button onClick={connectWallet}>Get started</button>
+            <a href="/ListDetails">Get started</a>
           </div>
         </div>
       </nav>
