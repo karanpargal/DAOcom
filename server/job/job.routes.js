@@ -7,7 +7,7 @@ const {
   createJob,
   updateJob,
   deleteJob,
-} = require("./job.service");
+} = require("./job.services");
 
 router.get("/", async (req, res) => {
   try {
@@ -47,6 +47,7 @@ router.post("/", async (req, res) => {
     ) {
       res.status(400).json({ message: "Please fill all fields" });
     }
+    console.log(jobData);
     const job = await createJob(jobData);
 
     res.status(201).json(job);
@@ -78,7 +79,6 @@ router.put("/:id", async (req, res) => {
   if (req.body.walletAddress) {
     jobData.walletAddress = req.body.walletAddress;
   }
-
 
   try {
     const updatedJob = await updateJob(req.params.id, jobData);

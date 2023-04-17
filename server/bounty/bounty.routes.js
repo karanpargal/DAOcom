@@ -7,7 +7,7 @@ const {
   createBounty,
   updateBounty,
   deleteBounty,
-} = require("./bounty.service");
+} = require("./bounty.services");
 
 router.get("/", async (req, res) => {
   try {

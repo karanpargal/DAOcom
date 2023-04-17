@@ -7,7 +7,7 @@ const {
   createGrant,
   updateGrant,
   deleteGrant,
-} = require("./grant.service");
+} = require("./grant.services");
 
 router.get("/", async (req, res) => {
   try {

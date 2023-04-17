@@ -1,4 +1,4 @@
-const Job = require("./bounty.schema");
+const Job = require("./job.schema");
 
 async function getAllJobs() {
   try {
@@ -18,8 +18,8 @@ async function getJobById(id) {
   }
 }
 
-async function createJob(bountyData) {
-  const { error } = Job.validate(bountyData);
+async function createJob(jobData) {
+  const { error } = Job.validate(jobData);
   if (error) {
     throw new Error(error.message);
   }
