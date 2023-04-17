@@ -33,7 +33,7 @@ const ListDetails = () => {
         </div>
         
       </nav>
-      <div className="flex flex-row justify-center gap-10 p-8 pt-24">
+      <div className="flex flex-row justify-center gap-10 p-8 pt-24  h-[100%]">
         <ListCards ListCards={ListCardsData[0]} />
         <ListCards ListCards={ListCardsData[1]} />
       </div>

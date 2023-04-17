@@ -19,7 +19,7 @@ import AddGrant from "./Forms/AddGrants.js";
 
 function App() {
   return (
-    <div className="App bg-gradient-to-l from-violet-200 to-pink-200s">
+    <div className="App bg-gradient-to-l from-violet-200 to-pink-200s h-screen">
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/ListCards" element={<ListCards />} />
