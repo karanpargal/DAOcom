@@ -1,4 +1,4 @@
-const Grant = require("./bounty.schema");
+const Grant = require("./grant.schema");
 
 async function getAllGrants() {
   try {
