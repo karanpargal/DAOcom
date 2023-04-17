@@ -45,9 +45,9 @@ router.post("/", async (req, res) => {
     ) {
       res.status(400).json({ message: "Please fill all fields" });
     }
-    const bounty = await createGrant(grantData);
+    const grant = await createGrant(grantData);
 
-    res.status(201).json(bounty);
+    res.status(201).json(grant);
   } catch (err) {
     res.status(400).json({ message: err.message });
   }
