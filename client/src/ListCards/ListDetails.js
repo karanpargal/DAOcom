@@ -4,13 +4,13 @@ import ListCards from "./ListCards";
 const ListDetails = () => {
   const ListCardsData = [
     {Image:"#",
-      Heading: "Company management",
+      Heading: "Looking for talent?",
       Description:
         "Organisations can manage their employees, their professional and payroll details",
         Button:"List Your opportunity"
     },
     {Image:"#",
-      Heading: "One Click Pay",
+      Heading: "Looking to earn?",
       Description:
         "Organisation can pay their employees with just one click after connecting the hardware wallet",
       Button:"Get to Work"

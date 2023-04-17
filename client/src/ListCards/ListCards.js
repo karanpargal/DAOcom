@@ -3,8 +3,8 @@ import React from 'react'
 const ListCards = (props) => {
   console.log(props)
     return (
-      <div>
-        <div className=" rounded-lg h-fit border-2 border-fuchsia-600 flex flex-col w-80 text-black">
+      <div className='bg-neutral-50'>
+        <div className=" shadow-xl  rounded-lg h-fit  flex flex-col border-black border w-80 text-black">
          
         <div>
               <img className='h-24 w-80' src={props.ListCards.Image}>
@@ -20,8 +20,8 @@ const ListCards = (props) => {
               {props.ListCards.Description}
               </h1>
             </div>
-            <div className='items-center justify-center'>
-              <button className="flex w-60 mt-10 ml-10 gap-x-1 rounded-lg px-8  py-2 text-base font-semibold text-black bg-black">
+            <div className='items-center'>
+              <button className="flex  w-60 mt-10 ml-10 gap-x-1 rounded-lg px-8  py-2 text-base font-semibold text-black bg-blue-500">
               {props.ListCards.Button}
               </button>
               
