@@ -3,10 +3,14 @@ import Sidebar from "../Sidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
 import BountyDetails from "./BountyDetails";
 import GrantsDetails from "../GrantCards/GrantsDetails";
+import { Link } from "react-router-dom";
+import AddBounty from "../Forms/AddBounty";
+import AddJobs from "../Forms/AddJobs";
+import AddGrants from "../Forms/AddGrants";
 
 const PaysalEarnOrg = () => {
   return (
-    <div>
+    <div className="h-screen">
       <div>
         <nav className=" fixed bg-neutral-50 h-16 flex flex-row border-b-2 w-[100%]">
           <div href="" class=" ">
@@ -23,7 +27,7 @@ const PaysalEarnOrg = () => {
           <div>
             <aside
               id="sidebar"
-              class="fixed left-0 z-40 w-64 h-fit mt-16  transition-transform-translate-x-full bg-neutral-50 border-r border-gray-200 sm:translate-x-0 "
+              class="fixed left-0 z-40 w-64 h-screen mt-16  transition-transform-translate-x-full bg-neutral-50 border-r border-gray-200 sm:translate-x-0 "
               aria-label="Sidebar"
             >
               <div class="h-full px-3 pb-4 overflow-y-auto bg-neutral-50 flex flex-col divide-y ">
@@ -128,9 +132,9 @@ const PaysalEarnOrg = () => {
           </div>
         </div>
 
-        <div className="flex flex-row ml-80 mt-40">
-          <div className="bg-neutral-50">
-            <div className=" shadow-xl  rounded-lg  flex flex-col border-black border w-80 text-black">
+        <div className="flex flex-row ml-80 gap-7 rounded-lg mt-40">
+          <div className="bg-slate-50">
+            <div className="  shadow-xl shadow-violet-300  rounded-lg  flex flex-col border-fuchsia-600 border w-72 text-black">
               <div className="text-center">
                 <div className="flex justify-center pt-8">
                   <svg
@@ -138,23 +142,22 @@ const PaysalEarnOrg = () => {
                     data-name="Layer 1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 122.88 122.88"
-                    className="h-10 w-10 text-gray-500"
+                    className="h-8 w-8  text-gray-500"
                   >
                     <title>add</title>
                     <path d="M61.44,0A61.46,61.46,0,1,1,18,18,61.25,61.25,0,0,1,61.44,0ZM88.6,56.82v9.24a4,4,0,0,1-4,4H70V84.62a4,4,0,0,1-4,4H56.82a4,4,0,0,1-4-4V70H38.26a4,4,0,0,1-4-4V56.82a4,4,0,0,1,4-4H52.84V38.26a4,4,0,0,1,4-4h9.24a4,4,0,0,1,4,4V52.84H84.62a4,4,0,0,1,4,4Zm8.83-31.37a50.92,50.92,0,1,0,14.9,36,50.78,50.78,0,0,0-14.9-36Z" />
                   </svg>
                   <a
-                    className="pt-1 pl-4 font-bold font-ubuntu ml-1 text-black text-2xl text-center pb-10"
+                    className="pl-4 font-bold font-ubuntu ml-1 text-black text-2xl text-center pb-8"
                     href="/AddBounty"
-                  >
-                    Add Bounty
+                  >AddBounty
                   </a>
                 </div>
               </div>
             </div>
           </div>
           <div className="bg-neutral-50 ml-8">
-            <div className=" shadow-xl  rounded-lg  flex flex-col border-black border w-80 text-black">
+            <div className=" shadow-xl shadow-violet-300  rounded-lg  flex flex-col border-fuchsia-600 border w-72 text-black">
               <div className="text-center">
                 <div className="flex justify-center pt-8">
                   <svg
@@ -162,23 +165,23 @@ const PaysalEarnOrg = () => {
                     data-name="Layer 1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 122.88 122.88"
-                    className="h-10 w-10 text-gray-500"
+                    className="h-8 w-8  text-gray-500"
                   >
                     <title>add</title>
                     <path d="M61.44,0A61.46,61.46,0,1,1,18,18,61.25,61.25,0,0,1,61.44,0ZM88.6,56.82v9.24a4,4,0,0,1-4,4H70V84.62a4,4,0,0,1-4,4H56.82a4,4,0,0,1-4-4V70H38.26a4,4,0,0,1-4-4V56.82a4,4,0,0,1,4-4H52.84V38.26a4,4,0,0,1,4-4h9.24a4,4,0,0,1,4,4V52.84H84.62a4,4,0,0,1,4,4Zm8.83-31.37a50.92,50.92,0,1,0,14.9,36,50.78,50.78,0,0,0-14.9-36Z" />
                   </svg>
                   <a
-                    className="pt-1 pl-4 font-bold font-ubuntu ml-1 text-black text-2xl text-center pb-10"
-                    href="/AddJob"
+                    className=" pl-4 font-bold font-ubuntu ml-1 text-black text-2xl text-center pb-8"
+                    href="/AddJobs"
                   >
-                    Add Job
+                    Add Jobs
                   </a>
                 </div>
               </div>
             </div>
           </div>
           <div className="bg-neutral-50 ml-8">
-            <div className=" shadow-xl  rounded-lg  flex flex-col border-black border w-80 text-black">
+            <div className=" shadow-xl shadow-violet-300  rounded-lg  flex flex-col border-fuchsia-600 border w-72 text-black">
               <div className="text-center">
                 <div className="flex justify-center pt-8">
                   <svg
@@ -186,16 +189,16 @@ const PaysalEarnOrg = () => {
                     data-name="Layer 1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 122.88 122.88"
-                    className="h-10 w-10 text-gray-500"
+                    className="h-8 w-8 text-gray-500"
                   >
                     <title>add</title>
                     <path d="M61.44,0A61.46,61.46,0,1,1,18,18,61.25,61.25,0,0,1,61.44,0ZM88.6,56.82v9.24a4,4,0,0,1-4,4H70V84.62a4,4,0,0,1-4,4H56.82a4,4,0,0,1-4-4V70H38.26a4,4,0,0,1-4-4V56.82a4,4,0,0,1,4-4H52.84V38.26a4,4,0,0,1,4-4h9.24a4,4,0,0,1,4,4V52.84H84.62a4,4,0,0,1,4,4Zm8.83-31.37a50.92,50.92,0,1,0,14.9,36,50.78,50.78,0,0,0-14.9-36Z" />
                   </svg>
                   <a
-                    className="pt-1 pl-4 font-bold font-ubuntu ml-1 text-black text-2xl text-center pb-10"
-                    href="/AddGrant"
+                    className=" pl-4 font-bold font-ubuntu ml-1 text-black text-2xl text-center pb-8"
+                    href="/AddGrants"
                   >
-                    Add Grant
+                    Add Grants
                   </a>
                 </div>
               </div>

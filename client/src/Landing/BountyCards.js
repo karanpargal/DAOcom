@@ -4,12 +4,12 @@ const BountyCards = (props) => {
   return (
     <div>
       <div className="">
-        <div className=" shadow-xl shadow-violet-300 bg-slate-50 rounded-lg h-60 	  flex flex-col   w-72 ">
+        <div className=" shadow-xl shadow-violet-300 shadow-xl shadow-violet-300 bg-slate-50 rounded-lg h-44	  flex flex-col   w-72 ">
           <div className="  text-center">
             <h1 className=" mt-4 font-Medium  ml-1 text-gray-500 text-left text-2xl  ">
               {props.BountyCards.title}
             </h1>
-            <div className="mt-2 mb-4 text-center">
+            <div className="mt-4 text-center">
               <p className="font-semibold ml-1 text-black leading-relaxed text-justify  text-base text-left  border-b">
                 {props.BountyCards.description}
               </p>

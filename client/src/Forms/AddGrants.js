@@ -2,63 +2,63 @@ import React from 'react'
 
 const AddGrants = () => {
   return (
-     <div>
-    <div class=" w-full m-auto  max-w-2xl drop-shadow-2xl text-black">
-      <div class=" flex flex-col gap-4 border-fuchsia-600 border-2 justify-center item-center text-white  rounded px-10 pt-4 pb-10 ">
-        <h1 className="block text-black text-2xl font-bold mb-2">
-          Add Grants
-        </h1>
-        <div class="mb-4">
-          <label class="block text-black text-sm font-bold mb-2" for="Name">
-            Title
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="Title"
-            type="text"
-            placeholder="John Doe"
-          ></input>
-          <label class="block text-black text-sm font-bold mb-2" for="Name">
-            Description
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="Description"
-            type="text"
-            placeholder=""
-          ></input>
-           <label class="block text-black text-sm font-bold mb-2" for="Name">
-            Deadline
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="Deadline"
-            type="text"
-            placeholder=""
-          ></input>
-          <label class="block text-black text-sm font-bold mb-2" for="Name">
+    <div className="h-screen ">
+      <div class=" w-full m-auto max-w-2xl pt-16 h-72  text-black ">
+        <div class=" flex flex-col shadow-2xl shadow-violet-300 gap-4 border-fuchsia-600 border-2 justify-center item-center text-white  rounded px-10 pt-6 pb-8 ">
+          <h1 className="block text-black text-2xl font-bold mb-2">
+            Add Grants
+          </h1>
+          <div class="mb-4 mt-2 ">
+            <label class="block mb-2  text-black text-lg font-semibold " for="Name">
+              Title
+            </label>
+            <input
+              className=" appearance-none mb-4  border rounded w-full py-2 px-3 text-gray-700 leading-tight "
+              id="Title"
+              type="text"
+              placeholder="John Doe"
+            ></input>
+            <label class="block  text-black text-lg font-semibold mb-2" for="Name">
+              Description
+            </label>
+            <input
+              className=" appearance-none mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-tight "
+              id="Description"
+              type="text"
+              placeholder=""
+            ></input>
+             <label class="block text-black  text-lg font-semibold mb-2" for="Name">
+              Deadline
+            </label>
+            <input
+              className=" appearance-none mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-tight "
+              id="Deadline"
+              type="text"
+              placeholder=""
+            ></input>
+             <label class="block text-black text-lg font-semibold mb-2" for="Name">
             Amount
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="Amount"
-            type="Text"
-            placeholder=""
-          ></input>
-          
-           <label class="block text-black text-sm font-bold mb-2" for="Name">
-            Wallet Address 
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="WalletAddress"
-            type="text"
-            placeholder=""
-          ></input>
+            </label>
+            <input
+              className=" appearance-none mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-tight "
+              id="Rewards"
+              type="text"
+              placeholder=""
+            ></input>
+             
+             <label class="block text-black text-lg font-semibold mb-2" for="Name">
+              Wallet Address 
+            </label>
+            <input
+              className=" appearance-none mb-4  border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="WalletAdress"
+              type="text"
+              placeholder=""
+            ></input>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   )
 }
 
