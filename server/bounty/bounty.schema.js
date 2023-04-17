@@ -23,6 +23,10 @@ const bountySchema = new Schema({
     default: [],
     required: true,
   },
+  walletAddress: {
+    type: String,
+    required: true,
+  },
 });
 
 module.exports = mongoose.model("Bounty", bountySchema);

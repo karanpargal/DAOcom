@@ -22,6 +22,10 @@ const jobSchema = new Schema({
     type: String,
     required: true,
   },
+  walletAddress: {
+    type: String,
+    required: true,
+  },
 });
 
 module.exports = mongoose.model("Job", jobSchema);
