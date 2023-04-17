@@ -23,16 +23,16 @@ router.get("/:id", async (req, res) => {
   try {
     const employee = await getEmployeeById(req.params.id);
     res.json(employee);
-  } catch (error) {
+  } catch (err) {
     res.status(500).json({ message: err.message });
   }
 });
 
-router.get("/:department", async (req, res) => {
+router.get("/filter/:department", async (req, res) => {
   try {
     const employee = await getEmployeeByDepartment(req.params.department);
     res.json(employee);
-  } catch (error) {
+  } catch (err) {
     res.status(500).json({ message: err.message });
   }
 });

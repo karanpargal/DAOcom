@@ -21,6 +21,7 @@ async function getEmployeeById(id) {
 async function getEmployeeByDepartment(department) {
   try {
     const employee = await Employee.find({"department": department});
+    
     return employee;
   } catch (err) {
     throw new Error(err.message);
