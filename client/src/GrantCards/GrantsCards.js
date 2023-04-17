@@ -2,8 +2,8 @@ import React from 'react'
 
 const GrantsCards = (props) => {
     return <div>
-    <div className='bg-neutral-50'>
-       <div className=" shadow-xl  rounded-lg h-60  flex flex-col border-black border w-72 text-black">
+    <div className=''>
+       <div className=" shadow-xl  bg-slate-50 rounded-lg h-60  flex flex-col border-black border w-72 text-black">
         
        <div>
              <img className='h-16 w-72'>
@@ -11,7 +11,7 @@ const GrantsCards = (props) => {
              </img>
            </div>
          <div className="  text-center">
-           <h1 className=" pt-10 font-bold font-ubuntu ml-1 text-black text-2xl text-center underline underline-offset-4" >
+           <h1 className=" mt-4 font-bold font-ubuntu ml-1 text-black text-2xl text-center underline underline-offset-4" >
              {props.GrantsCards.Heading}
            </h1>
            <div className="pt-4 text-center">
