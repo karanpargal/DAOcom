@@ -1,5 +1,6 @@
 import React from 'react'
 import LandingNavbar from '../Navbar/LandingNavbar'
+import organization from '../Assets/organization.png'
 
 const Landing = () => {
   return (
@@ -17,7 +18,7 @@ const Landing = () => {
         
         </div>
         <div>
-            <img src="#" className='mr-16 mt-10' width="500" height="500">
+            <img src={organization} className='mr-16 mt-10' width="500" height="500">
             </img>
         </div>
         
