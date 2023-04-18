@@ -58,7 +58,7 @@ const AddBounty = () => {
               className=" appearance-none mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-tight "
               id="description"
               type="text"
-              placeholder=""
+              placeholder="Your bounty description"
             ></input>
             <label
               class="block text-black  text-lg font-semibold mb-2"
@@ -70,7 +70,7 @@ const AddBounty = () => {
               className=" appearance-none mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-tight "
               id="deadline"
               type="text"
-              placeholder=""
+              placeholder="29 March 2023"
             ></input>
             <label
               class="block text-black text-lg font-semibold mb-2"
@@ -82,19 +82,19 @@ const AddBounty = () => {
               className=" appearance-none mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-tight "
               id="rewards"
               type="text"
-              placeholder=""
+              placeholder="100 USDC"
             ></input>
             <label
               class="block text-black text-lg font-semibold mb-2"
               for="Name"
             >
-              Tags
+              Tag
             </label>
             <input
               className=" appearance-none mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-tight "
               id="tags"
               type="text"
-              placeholder=""
+              placeholder="Technical"
             ></input>
             <label
               class="block text-black text-lg font-semibold mb-2"
@@ -106,7 +106,7 @@ const AddBounty = () => {
               className=" appearance-none mb-4  border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="walletAddress"
               type="text"
-              placeholder=""
+              placeholder="0x...."
             ></input>
             <button className="text-black shadow-md shadow-violet-300 hover:text-white transition ease-in-out delay-150 bg-white hover:-translate-y-1  hover:scale-100 hover:bg-violet-400 duration-300 text-lg font-semibold rounded-sm  outline  outline-1 outline-fuchsia-600 px-8" onClick={() => {
               sendBounty();

@@ -2,6 +2,9 @@
   "name": "hardhat-project",
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@routerprotocol/evm-gateway-contracts": "^1.0.5",
+    "@routerprotocol/router-crosstalk": "^0.1.8",
+    "@routerprotocol/router-crosstalk-utils": "^1.0.5",
     "dotenv": "^16.0.3"
   }
 }
