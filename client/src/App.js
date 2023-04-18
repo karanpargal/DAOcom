@@ -11,6 +11,8 @@ import AddJobs from "./Forms/AddJobs.js";
 import AddGrants from "./Forms/AddGrants.js";
 import Dashboard from "./Dashboard/Dashboard.js";
 import Contributors from "./Contributors/Contributors.js";
+import Submission from "./Forms/Submission.js";
+
 
 function App() {
   return (
@@ -28,6 +30,11 @@ function App() {
         <Route path="/AddBounty" element={<AddBounty />} />
         <Route path="/AddGrants" element={<AddGrants />} />
         <Route path="/contributor" element={<Contributors />} />
+        <Route path="/Submission" element={<Submission />} />
+       
+
+
+
 
       </Routes>
     </div>

@@ -17,7 +17,7 @@ const Landing = () => {
         </div>
         
         </div>
-        <div>
+        <div className=''>
             <img src={organization} className='mr-16 mt-10' width="500" height="500">
             </img>
         </div>
