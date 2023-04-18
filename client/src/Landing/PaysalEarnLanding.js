@@ -11,7 +11,6 @@ const PaysalEarnLanding = () => {
   const [bounty, setBounty] = useState([]);
   const [grants, setGrants] = useState([]);
   const [jobs, setJobs] = useState([]);
-
   const fetchBounty = async () => {
     setBounty([]);
     const response = await fetch("https://daocom.onrender.com/bounties", {
