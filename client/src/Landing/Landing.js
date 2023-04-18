@@ -5,13 +5,19 @@ const Landing = () => {
   return (
 
     <div><LandingNavbar/>
-    <div className='flex flex row'>
+    <div className='flex flex row h-screen'>
         <div className='mt-8'>
-        <p className='text-xl'>Lorem Ipsum</p>
-        <p className='mt-4 text-base '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at euismod tortor. Phasellus nulla mauris, ornare vitae nisl ac, mattis consectetur urna. Donec ultrices viverra lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta mollis mattis. Curabitur lacinia purus tempor dictum ultrices. Pellentesque varius quis orci a malesuada. Nunc quis interdum urna. Pellentesque rhoncus congue vehicula. Ut scelerisque suscipit sem, sit amet tempor purus porta nec.</p>
+        <h1 className='text-4xl ml-8 mt-8 font-semibold'>Empowering DAOs To Shape The Future Together</h1>
+        <div className="ml-8 mt-8 leading-light w-3/4 text-2xl">
+        <p >Elevate your DAO with our platform's bounties, jobs, 
+        and grants, cross-chain payments, and build you proof of work.</p>
+          <p >  Empower your contributors and unlock your DAO's potential today!</p>
+           <p >Join the future of decentralized organizations..</p>
+        </div>
+        
         </div>
         <div>
-            <img src="#" className='mr-16' width="500" height="500">
+            <img src="#" className='mr-16 mt-10' width="500" height="500">
             </img>
         </div>
         

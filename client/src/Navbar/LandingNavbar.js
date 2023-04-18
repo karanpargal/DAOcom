@@ -45,14 +45,14 @@ const LandingNavbar = () => {
   }, [walletConnected]);
   return (
     <div>
-      <nav className="bg-neutral-50 h-16  flex flex-row justify-between">
+      <nav className="bg-slate-50  border-b-2 border-violet-200 h-16  flex flex-row justify-between">
         <div href="" class=" ">
           <h1 class="mt-4 ml-8 flex flex-col text-xl text-black font-semibold  ">
-            Paysal-earn
+            DAOcom
           </h1>
         </div>
         <div class="relative inline-block ml-96 text-left mt-4 mr-8 flex flex-col">
-          <div className="flex w-full text-black justify-around gap-x-1.5 rounded-lg px-10 py-2 text-base font-semibold ring-2 ring-inset ring-fuchsia-600">
+          <div className="flex w-full text-black justify-around gap-x-1.5 rounded-lg px-10 py-2 text-base font-semibold ring-1 ring-offset ring-fuchsia-600 shadow-md shadow-violet-300  hover:text-white transition ease-in-out delay-150 bg-white hover:-translate-y-1  hover:scale-100 hover:bg-violet-300 duration-300  ">
             <a href="/ListDetails">Get started</a>
           </div>
         </div>

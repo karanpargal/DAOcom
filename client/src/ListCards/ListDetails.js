@@ -5,7 +5,7 @@ const ListDetails = () => {
   const ListCardsData = [
     {
       Image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbLUYbWZtBYC6Ve0pLlQ51wuf5mrGSVIP3H4rgH_9x9UJXA5-U814UKVbRs5tavG6Tp5A&usqp=CAU",
+        "https://cdn-icons-png.flaticon.com/512/1251/1251897.png?w=740&t=st=1681775262~exp=1681775862~hmac=811dd6a10788ed63b355bcb5c823d9a9aca06de4891835373acafa6461e4e351s://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbLUYbWZtBYC6Ve0pLlQ51wuf5mrGSVIP3H4rgH_9x9UJXA5-U814UKVbRs5tavG6Tp5A&usqp=CAU",
       Heading: "Looking for talent?",
       Description:
         "List a bounty, job, or grant for your project and find your next contributor or employee",
@@ -13,7 +13,7 @@ const ListDetails = () => {
     },
     {
       Image:
-        "https://uploads-ssl.webflow.com/5a9ee6416e90d20001b20038/62ee056517fa63b5cb91fbcf_Rectangle%201%20(64).svg",
+        "https://cdn-icons-png.flaticon.com/512/3427/3427292.png",
       Heading: "Looking to earn?",
       Description:
         "Create a profile to get notified when new earning opportunities get posted and build your on-chain resume",
@@ -25,15 +25,15 @@ const ListDetails = () => {
 
   return (
     <div className=" font-display" id="ListDetails">
-      <nav className="bg-neutral-50 h-16 flex flex-row border-b-2">
+      <nav className="bg-neutral-50 pacity-75  h-16 flex flex-row border-b-2 border-fuchsia-300">
         <div href="" class=" ">
-          <h1 class="mt-4 ml-1 text-xl text-black font-semibold  ">
-            Paysal-earn
+          <h1 class="mt-4 ml-4  text-xl text-black font-semibold  ">
+            DAOcom
           </h1>
         </div>
         
       </nav>
-      <div className="flex flex-row justify-center gap-10 p-8 pt-24  h-[100%]">
+      <div className="flex flex-row justify-center gap-16 p-8 pt-24  h-[100%]">
         <ListCards ListCards={ListCardsData[0]} />
         <ListCards ListCards={ListCardsData[1]} />
       </div>

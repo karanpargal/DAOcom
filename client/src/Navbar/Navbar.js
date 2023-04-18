@@ -49,7 +49,7 @@ const Navbar = () => {
       <nav className=" fixed bg-neutral-50 w-[100%] h-16 flex flex-row border-b-2">
         <div href="" class=" ">
           <h1 class="mt-4 ml-1 text-xl text-black font-semibold">
-            Paysal-earn
+            DAOcom
           </h1>
         </div>
         <div className="ml-96">
