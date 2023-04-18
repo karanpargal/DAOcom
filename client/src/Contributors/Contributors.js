@@ -42,7 +42,7 @@ const Employess = (props) => {
                   <h1 className="text-left mt-4 text-gray-600">Workspace</h1>
                   <li>
                     <a
-                      href="#"
+                      href="/dashboard"
                       class="flex items-center p-2 text-black rounded-lg "
                     >
                       <svg

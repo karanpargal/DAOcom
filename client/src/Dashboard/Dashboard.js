@@ -104,7 +104,7 @@ const Dashboard = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/Contributor"
                       class="flex items-center p-2 text-black rounded-lg "
                     >
                       <svg
