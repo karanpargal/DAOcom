@@ -12,9 +12,9 @@ const cors = require("cors");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
-  cors({
-    origin: "*"
-  })
+  cors(
+    "*"
+  )
 );
 
 app.use("/employees", employeeRouter);
