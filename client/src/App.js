@@ -14,6 +14,7 @@ import Contributors from "./Contributors/Contributors.js";
 import Submission from "./Forms/Submission.js";
 import Resume from "./Forms/Resume.js";
 import GrantsSubmission from "./Forms/GrantsSubmission.js";
+import FeaturesCard from "./FeaturesSection/FeaturesCard.js";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/Submission" element={<Submission />} />
         <Route path="/Resume" element={<Resume  />} />
         <Route path="/GrantsSubmission" element={<GrantsSubmission  />} />
+        <Route path="/FeaturesCard " element={<FeaturesCard  />} />
        
 
 
