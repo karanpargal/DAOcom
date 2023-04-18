@@ -36,10 +36,7 @@ function App() {
         <Route path="/Submission" element={<Submission />} />
         <Route path="/Resume" element={<Resume  />} />
         <Route path="/GrantsSubmission" element={<GrantsSubmission  />} />
-        <Route path="/FeaturesCard " element={<FeaturesCard  />} />
-       
-
-
+        <Route path="/FeaturesCard" element={<FeaturesCard  />} />
 
 
       </Routes>
