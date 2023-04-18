@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Submission = () => {
+const GrantsSubmission = () => {
   return (
-    <div><div className="h-screen ">
+    <div><div><div className="h-screen ">
     <div class="  m-auto max-w-2xl pt-20 h-72  text-black   ">
       <div class=" flex flex-col shadow-2xl shadow-violet-300 gap-4 border-fuchsia-600 border-2 justify-center item-center text-white  rounded px-10 pt-8 pb-8 ">
         <h1 className="block text-black text-2xl font-bold mb-2">
-          Submit Your project
+          Grants
         </h1>
         <div class="mb-4 mt-2 ">
           <label
@@ -65,8 +65,8 @@ const Submission = () => {
         </div>
       </div>
     </div>
-  </div></div>
+  </div></div></div>
   )
 }
 
-export default Submission
+export default GrantsSubmission

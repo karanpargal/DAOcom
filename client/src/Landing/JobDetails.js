@@ -7,7 +7,7 @@ const JobDetails = (props) => {
   return (
     <div className="mt-10 font-display" id="BountyDetails">
       <p className=" text-2xl text-black font-bold  ">Job Details </p>
-      <div className="flex flex-row justify-center gap-10 mt-4">
+      <div className="flex flex-row justify-center gap-10 mt-8">
       {JobDetailsData.map((JobDetailsData) => (
           <JobCards JobCards={JobDetailsData} />
         ))}

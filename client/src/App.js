@@ -12,6 +12,8 @@ import AddGrants from "./Forms/AddGrants.js";
 import Dashboard from "./Dashboard/Dashboard.js";
 import Contributors from "./Contributors/Contributors.js";
 import Submission from "./Forms/Submission.js";
+import Resume from "./Forms/Resume.js";
+import GrantsSubmission from "./Forms/GrantsSubmission.js";
 
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
         <Route path="/AddGrants" element={<AddGrants />} />
         <Route path="/contributor" element={<Contributors />} />
         <Route path="/Submission" element={<Submission />} />
+        <Route path="/Resume" element={<Resume  />} />
+        <Route path="/GrantsSubmission" element={<GrantsSubmission  />} />
        
 
 

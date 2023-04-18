@@ -9,7 +9,7 @@ const Sidebar = () => {
         aria-label="Sidebar"
       >
         <div class="h-full px-3 pb-4 overflow-y-auto bg-neutral-50 flex flex-col divide-y ">
-          <ul class="space-y-2 font-medium flex flex-col ">
+          <ul class="space-y-2 font-medium flex flex-col   ">
             <h1 className="text-left mt-4 text-gray-600">Top Bounties</h1>
             <li>
               <a href="#" class="flex items-center p-2 text-black rounded-lg ">

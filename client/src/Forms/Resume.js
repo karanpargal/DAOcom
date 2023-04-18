@@ -6,7 +6,7 @@ const Resume = () => {
     <div class="  m-auto max-w-2xl pt-20 h-72  text-black   ">
       <div class=" flex flex-col shadow-2xl shadow-violet-300 gap-4 border-fuchsia-600 border-2 justify-center item-center text-white  rounded px-10 pt-8 pb-8 ">
         <h1 className="block text-black text-2xl font-bold mb-2">
-          Add Bounty
+          Resume
         </h1>
         <div class="mb-4 mt-2 ">
           <label
@@ -38,7 +38,7 @@ const Resume = () => {
             class="block text-black text-lg font-semibold mb-2"
             for="Name"
           >
-            Submission link
+            Resume link
           </label>
           <input
             className=" appearance-none mb-4 border rounded w-full py-2 px-3 text-gray-700 leading-tight "

@@ -7,7 +7,7 @@ const BountyDetails = (props) => {
   return (
     <div className="mt-16 font-display" id="BountyDetails">
       <p className=" text-2xl text-black font-bold  ">Bounty Details </p>
-      <div className="flex flex-row justify-center gap-10 mt-4">
+      <div className="flex flex-row justify-center gap-10 mt-8">
         {BountyDetailsData.map((BountyDetailsData) => (
           <BountyCards BountyCards={BountyDetailsData} />
         ))}

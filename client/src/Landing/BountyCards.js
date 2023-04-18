@@ -5,7 +5,7 @@ const BountyCards = (props) => {
   return (
     <div>
       <div className="">
-        <div className=" shadow-xl shadow-violet-300 shadow-xl shadow-violet-300 bg-slate-50 rounded-lg h-60	p-2  flex flex-col   w-72 ">
+        <div className=" shadow-xl shadow-violet-300 shadow-xl shadow-violet-300 bg-slate-50 rounded-lg h-68	p-4  flex flex-col   w-72 ">
           <div className="  text-center">
             <h1 className=" mt-4 font-Medium font-semibold  ml-2 text-gray-500 text-left text-2xl  ">
               {props.BountyCards.title}
@@ -25,7 +25,7 @@ const BountyCards = (props) => {
               </div>
             </div>
             <div className="p-2 text-center">
-              <button className="text-black shadow-md shadow-violet-300 hover:text-white transition ease-in-out delay-150 bg-white hover:-translate-y-1  hover:scale-90 hover:bg-violet-400 duration-300 text-base font-semibold rounded-md  outline  outline-1 outline-fuchsia-400 px-2">
+              <button className="text-black mt-2 shadow-md shadow-violet-300 hover:text-white transition ease-in-out delay-150 bg-white hover:-translate-y-1  hover:scale-90 hover:bg-violet-400 duration-300 text-base font-semibold rounded-md  outline  outline-1 outline-fuchsia-400 px-2">
                 <a href="/Submission">Tap to Submit</a>
 
               </button>
