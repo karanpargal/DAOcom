@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useRef, useEffect } from "react";
 import Web3Modal from "web3modal";
 import { providers } from "ethers";
+import Logo from "../Assets/Logo.png"
 
 const Dashboard = () => {
   const [orgData, setOrgData] = useState([]);
@@ -65,11 +66,11 @@ const Dashboard = () => {
     <div>
       <div>
         <nav className=" fixed bg-neutral-50 h-16 flex flex-row border-b-2 w-[100%]">
-          <div href="" class=" ">
-            <h1 class="mt-4 ml-4 text-xl text-black font-semibold  ">
-              DAOcom
-            </h1>
-          </div>
+        <div href="" class=" ">
+          <img class="w-40 h-18 mt-2  "  src={Logo}>
+           
+          </img>
+        </div>
         </nav>
       </div>
 

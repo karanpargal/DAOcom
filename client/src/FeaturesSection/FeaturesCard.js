@@ -1,30 +1,23 @@
 import React from 'react'
-
-const FeaturesCard = () => {
-  return (
-    <div className='flex min-h-screen flex-col justify-center bg-slate-100'>
-        <div className='group h-96 w-96 [perspective:1000px]' >
-            <div className='realative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
-                <div class="absolute inset-0">
-                    <img className="object-cover rounded-xl h-full w-full" src=""></img>
-
-                </div>
-                <div className='absolute inset-0 h-full w-full rounded-xl text-center bg-black px-12 text-slate-200 [transform:rotateY(180deg)][backface-visibility:hidden]'>
-                    <div className='flex mini-h-full flex-col item-center justify-center'>
-                        <h1 className='text-3xl '>me yeelo</h1>
-                        <p className='text-lg'>khuch bhi</p>
-                        <p className='text-base'>lorem ipsem  gcuyrgvliw</p>
-
-                    </div>
-
-
-                </div>
-
+const FeaturesCard = (props) => {
+    return (
+      <div>
+        <div className=" shadow-2xl shadow-violet-400 bg-slate-50 rounded-lg h-64 flex flex-col  border w-80 text-black">
+         
+          
+          <div className="  text-center ">
+            <h1 className=" pt-10 font-bold font-ubuntu ml-1 text-black text-2xl text-center border-b-2 border-fuchsia-500" >
+              {props.FeaturesData.Heading}
+            </h1>
+            <div className=" text-center">
+              <h1 className="p-6 font-semibold font-ubuntu ml-1 text-black text-lg text-center">
+              {props.FeaturesData.Description}
+              </h1>
             </div>
-
+          </div>
         </div>
-    </div>
-  )
-}
-
-export default FeaturesCard
+      </div>
+    );
+  };
+  
+  export default FeaturesCard;

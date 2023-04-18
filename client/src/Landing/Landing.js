@@ -1,6 +1,8 @@
 import React from "react";
 import LandingNavbar from "../Navbar/LandingNavbar";
 import Dollar from "../Assets/Dollar.png";
+import Features from "../FeaturesSection/Features";
+
 
 const Landing = () => {
   return (
@@ -11,7 +13,7 @@ const Landing = () => {
           <h1 className="text-4xl ml-8 mt-8 font-semibold">
             Empowering DAOs To Shape The Future Together
           </h1>
-          <div className="ml-1 mt-2 leading-light w-3/4 text-2xl p-10">
+          <div className="ml-1 mt-8 leading-light w-5/6 text-2xl p-8 leading-7 line-height-2 tracking-wide ">
             <p>
               Elevate your DAO with our platform's bounties, jobs, and grants,
               cross-chain payments, and build you proof of work.
@@ -32,6 +34,7 @@ const Landing = () => {
           ></img>
         </div>
       </div>
+      <div><Features/></div>
     </div>
   );
 };

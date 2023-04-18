@@ -1,5 +1,6 @@
 import React from "react";
 import ListCards from "./ListCards";
+import Logo from "../Assets/Logo.png"
 
 const ListDetails = () => {
   const ListCardsData = [
@@ -26,10 +27,10 @@ const ListDetails = () => {
   return (
     <div className=" font-display" id="ListDetails">
       <nav className="bg-neutral-50 pacity-75  h-16 flex flex-row border-b-2 border-fuchsia-300">
-        <div href="" class=" ">
-          <h1 class="mt-4 ml-4  text-xl text-black font-semibold  ">
-            DAOcom
-          </h1>
+      <div href="" class=" ">
+          <img class="w-40 h-18 mt-2  "  src={Logo}>
+           
+          </img>
         </div>
         
       </nav>

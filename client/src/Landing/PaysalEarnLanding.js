@@ -5,6 +5,7 @@ import BountyDetails from "./BountyDetails";
 import GrantsDetails from "../GrantCards/GrantsDetails";
 import { useState, useEffect } from "react";
 import JobDetails from "./JobDetails";
+import Logo from "../Assets/Logo.png"
 
 const PaysalEarnLanding = () => {
   const [bounty, setBounty] = useState([]);
@@ -47,8 +48,10 @@ const PaysalEarnLanding = () => {
   return (
     <div className="">
       <nav className=" fixed bg-neutral-50 w-[100%] h-16 flex flex-row border-b-2">
-        <div href="" class=" ">
-          <h1 class="mt-4 ml-4 text-xl text-black font-semibold">DAOcom</h1>
+      <div href="" class=" ">
+          <img class="w-40 h-18 mt-2  "  src={Logo}>
+           
+          </img>
         </div>
       </nav>
       <div className="flex flex-row">
@@ -58,7 +61,7 @@ const PaysalEarnLanding = () => {
             class="fixed left-0 z-40 w-64 h-fit mt-16  transition-transform-translate-x-full bg-neutral-50 border-r border-gray-200 sm:translate-x-0 "
             aria-label="Sidebar"
           >
-            <div class="h-full px-3 pb-4 overflow-y-auto bg-neutral-50 flex flex-col divide-y ">
+            <div class="h-screen px-3 pb-4 overflow-y-auto bg-neutral-50 flex flex-col divide-y ">
               <ul class="space-y-2 font-medium flex flex-col ">
                 <h1 className="text-left mt-4 text-gray-600">
                   All opportunities

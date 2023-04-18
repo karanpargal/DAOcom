@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import ContributorsCard from "./ContributorsCard";
+import Logo from "../Assets/Logo.png";
 
 const Employess = (props) => {
   const [contributorData, setContributorDataData] = useState([]);
@@ -22,11 +23,11 @@ const Employess = (props) => {
     <div className="w-full pb-10">
       <div>
         <nav className=" fixed bg-neutral-50 h-16 flex flex-row border-b-2 w-[100%]">
-          <div href="" class=" ">
-            <h1 class="mt-4 ml-4 text-xl text-black font-semibold  ">
-              Paysal-earn
-            </h1>
-          </div>
+        <div href="" class=" ">
+          <img class="w-40 h-18 mt-2  "  src={Logo}>
+           
+          </img>
+        </div>
         </nav>
       </div>
       <div className="flex flex-row ">

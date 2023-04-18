@@ -7,17 +7,18 @@ import { Link } from "react-router-dom";
 import AddBounty from "../Forms/AddBounty";
 import AddJobs from "../Forms/AddJobs";
 import AddGrants from "../Forms/AddGrants";
+import Logo from "../Assets/Logo.png"
 
 const PaysalEarnOrg = () => {
   return (
     <div className="h-screen">
       <div>
         <nav className=" fixed bg-neutral-50 h-16 flex flex-row border-b-2 w-[100%]">
-          <div href="" class=" ">
-            <h1 class="mt-4 ml-4 text-xl text-black font-semibold  ">
-              Paysal-earn
-            </h1>
-          </div>
+        <div href="" class=" ">
+          <img class="w-40 h-18 mt-2  "  src={Logo}>
+           
+          </img>
+        </div>
           
           
         </nav>

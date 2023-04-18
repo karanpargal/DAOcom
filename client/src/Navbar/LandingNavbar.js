@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useRef, useEffect } from "react";
 import Web3Modal from "web3modal";
 import { providers } from "ethers";
+import Logo from "../Assets/Logo.png"
 
 const LandingNavbar = () => {
   const [walletConnected, setWalletConnected] = useState(false);
@@ -47,12 +48,12 @@ const LandingNavbar = () => {
     <div>
       <nav className="bg-slate-50  border-b-2 border-violet-200 h-16  flex flex-row justify-between">
         <div href="" class=" ">
-          <h1 class="mt-4 ml-8 flex flex-col text-xl text-black font-semibold  ">
-            DAOcom
-          </h1>
+          <img class="w-40 h-18 mt-2  "  src={Logo}>
+           
+          </img>
         </div>
         <div class="relative inline-block ml-96 text-left mt-4 mr-8 flex flex-col">
-          <div className="flex w-full text-black justify-around gap-x-1.5 rounded-lg px-10 py-2 text-base font-semibold ring-1 ring-offset ring-fuchsia-600 shadow-md shadow-violet-300  hover:text-white transition ease-in-out delay-150 bg-white hover:-translate-y-1  hover:scale-100 hover:bg-violet-300 duration-300  ">
+          <div className="flex w-full text-black justify-around gap-x-1.5 rounded-xl px-8 py-1 text-base font-semibold ring-1 ring-offset ring-fuchsia-600 shadow-md shadow-violet-300  hover:text-white transition ease-in-out delay-150 bg-white hover:-translate-y-1  hover:scale-100 hover:bg-violet-300 duration-300  ">
             <a href="/ListDetails">Get started</a>
           </div>
         </div>
