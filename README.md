@@ -19,6 +19,12 @@ For the contributors, we have a one stop where they can find their next target a
 - They can build their proof of work as well.
 - We support cross chain transaction as well to have the freedom to get funds in whichever chain you want.
 
+# Deployments
+- Frontend - https://daocom-a703d9.spheron.app/
+- Backend - https://daocom.onrender.com
+- Contract address for cross chain rewards using router - 0xC434c7be548A31fb8dA76f0CC3Cf25e51166B039 (Avalanche) , 0xebe996b85c56fd66cbd20d4C9cF03a5491c0B9F7 (Polygon)
+- Contract address for 5irechain rewards - 0x189D6807030b09D86CA4c61c8bfE22DDcA4A682E
+
 # 🧠 Knowledge Primer
 
 - [Router Protocol](https://www.routerprotocol.com/)
@@ -36,6 +42,7 @@ For the contributors, we have a one stop where they can find their next target a
 - Zeeve
 - 5irechain
 - Solidity
+- Spheron
 
 # ⏭️ What's next
 - Add support for more chains.
